@@ -1,0 +1,8 @@
+# 网络配置文件，用于自动设置网卡的IPv4链路本地地址，仅适用于单根 QSFP 线缆连接
+network:
+  version: 2
+  ethernets:
+    enp1s0f0np0:
+      link-local: [ ipv4 ]
+    enp1s0f1np1:
+      link-local: [ ipv4 ]
