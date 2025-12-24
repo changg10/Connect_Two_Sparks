@@ -1,4 +1,5 @@
 # 网络配置文件，用于手动设置网卡的IPv4链路本地地址，适用于两根 QSFP 线缆连接
+#节点2上的示例配置
 network:
   version: 2
   ethernets:
